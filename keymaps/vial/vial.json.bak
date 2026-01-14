@@ -1,0 +1,41 @@
+{
+    "manufacturer": "Paul",
+    "keyboard_name": "0pico",
+    "maintainer": "Paul",
+    "bootloader": "rp2040",
+    "diode_direction": "ROW2COL",
+    "features": {
+        "bootmagic": true,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true,
+        "via": true,
+        "vial": true
+
+    },
+    "matrix_pins": {
+        "cols": ["GP10"],
+        "rows": ["GP6"]
+    },
+    "processor": "RP2040",
+    "url": "",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0000",
+        "vid": "0xFEED"
+    },
+    "layouts": {
+        // "LAYOUT": {
+        //     "layout": [
+        //         {"matrix": [0, 0], "x": 0, "y": 0}
+                
+        //     ]
+        // }
+        "labels": ["LAYOUT"],
+        "keymap": [
+            [0, 0]   // simple for your one-key test
+        ]
+    },
+    "uid": "0x2D, 0xD7, 0x68, 0x54, 0xCE, 0xA0, 0x19, 0x51"
+
+}

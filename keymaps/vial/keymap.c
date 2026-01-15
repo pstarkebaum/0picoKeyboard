@@ -1,5 +1,6 @@
 #include QMK_KEYBOARD_H
 #include "0pico.h"   
+
 /*
 #define LAYOUT_40( \
     k00,  \
@@ -18,6 +19,13 @@
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT(
         QK_BOOT, 
-        KC_A  
+        KC_A, KC_A, KC_A, KC_A,
+        KC_A, KC_A, KC_A, KC_A, KC_A, 
+        KC_A, KC_A, KC_A, KC_A, KC_A, 
+        KC_A, KC_A, KC_A, KC_A, KC_A, 
+        KC_A, KC_A, KC_A, KC_A, KC_A, 
+        KC_A, KC_A, KC_A, KC_A, KC_A, 
+        KC_A, KC_A, KC_A, KC_A, KC_A, 
+        KC_A, KC_A, KC_A, KC_A, KC_A 
     )
 };

@@ -9,13 +9,11 @@
         "extrakey": true,
         "mousekey": true,
         "nkro": true,
-        // "via": true,
-        // "vial": true
 
     },
     "matrix_pins": {
         "cols": ["GP10"],
-        "rows": ["GP6"]
+        "rows": ["GP6", "GP7"]
     },
     "processor": "RP2040",
     "url": "",
@@ -27,7 +25,8 @@
     "layouts": {
         "LAYOUT": {
             "layout": [
-                {"matrix": [0, 0], "x": 0, "y": 0}
+                {"matrix": [0, 0], "x": 0, "y": 0},
+                {"matrix": [1, 0], "x": 1, "y": 0}
                 
             ]
         }

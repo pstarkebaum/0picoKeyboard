@@ -1,4 +1,13 @@
+what we did here
+we added another key to all files.
+keyboard.json added another row pin and a row to LAYOUT
+added a key to both keymap.c in default and vial directories
+added row to keymap in vial.json from KLE and +1 row in matrix
+got a layout undefined error so added 0pico.h with #define LAYOUT 
+
+
 # 0pico
+
 
 ![0pico](imgur.com image replace me!)
 

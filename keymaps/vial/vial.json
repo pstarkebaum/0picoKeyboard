@@ -1,17 +1,13 @@
 {
     "lighting": "none",
     "matrix": {
-        "rows": 1,
+        "rows": 2,
         "cols": 1
     },
     "layouts": {
         "keymap":[
-  [
-    {
-      "y": 1
-    },
-    "0,0"
-  ]
+  [{"y":1},"0,0"],
+  ["1,0"]
 ]
     }
 }

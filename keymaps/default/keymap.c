@@ -2,6 +2,7 @@
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT(
-        QK_BOOT   // or your test keycode
+        QK_BOOT  
+        KC_A // or your test keycode
     )
 };

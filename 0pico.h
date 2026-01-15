@@ -1,13 +1,14 @@
 #pragma once
 #include "quantum.h"
 
-#define LAYOUT_40( \
-    k00,  
+#define LAYOUT( \
+    k00, \
     k10  \
-         \
-) {      \
+) \
+{ \
     { k00   }, \
-    { k10   } \
+    { k10   }, \
+    { KC_NO }  \
 }
 
 /*

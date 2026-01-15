@@ -13,7 +13,7 @@
     },
     "matrix_pins": {
         "cols": ["GP10"],
-        "rows": ["GP6", "GP7"]
+        "rows": ["GP6", "GP7", "GP8"]
     },
     "processor": "RP2040",
     "url": "",

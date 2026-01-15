@@ -14,7 +14,7 @@
 }
 */
 
-#define LAYOUT_40( \
+#define LAYOUT( \
       k00,   k01,   k02,   k03,   k04,                 k07,   k08,   k09,   k0A,   k0B, \
       k10,   k11,   k12,   k13,   k14,                 k17,   k18,   k19,   k1A,   k1B, \
       k20,   k21,   k22,   k23,   k24,                 k27,   k28,   k29,   k2A,   k2B, \
